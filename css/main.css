@@ -74,10 +74,6 @@ line-height: 34px;
     line-height: 25px;   
 }
 
-#main-logo img{
-float:left;
-padding: 10px;
-}  /*why isn't this working?*/
 
 
 #ballot-pg h3 {
@@ -183,7 +179,4 @@ overflow-x: auto;
 		background: white;
 	}
 	
-#main-logo img{
-float: left;
-}  
 
