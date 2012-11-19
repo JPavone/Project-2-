@@ -1,0 +1,189 @@
+html, body {
+	height: 100%;
+}
+
+.container {
+	min-height: 100%
+	height: auto; !important;
+		}
+		
+#nav-bar {
+  width: 100%;
+  text-align: center;
+  padding: 20px;
+   } 
+
+#nav-bar li {
+	display: inline;
+   }
+
+#nav-bar a:link {
+   color:black;
+   font-family: avenir;
+   padding: 8px 15px;
+   text-decoration: none;
+   font-family: avenir;
+   font-size: 14px;
+   text-transform:uppercase;  
+}
+
+#nav-bar a:hover {
+    color:#00B2EE; /*unvisited link*/
+}
+ /*is there a quicker way to do this?*/
+  
+#nav-bar a:visited {
+       color:#FF7F24; /*visited link*/
+}
+
+#nav-bar .here a:link {
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+#about-pg h3 {
+	text-transform: uppercase;
+	font-family: avenir;
+	font-size: 24px;
+	overflow: auto; 
+	padding: 15px;  
+	}
+	
+#about-pg h3 {
+	background-color:#00B2EE;
+}
+
+#logo-info h1 {
+    text-transform: uppercase;
+    font-family: avenir;
+    color:#00B2EE;
+    font-size:28px;
+}
+
+#logo-info h2 {
+font-size:28px; 
+font-family: avenir; 
+line-height: 34px;
+ }
+
+#logo-info p {
+    color: black;
+    font-size:18px;
+    font-family: avenir;
+    text-align:justify; 
+    line-height: 25px;   
+}
+
+#main-logo img{
+float:left;
+padding: 10px;
+}  /*why isn't this working?*/
+
+
+#ballot-pg h3 {
+    font-family: avenir;
+    background-color:#00B2EE;
+     font-size:24px;   
+    text-transform:uppercase;
+    
+  overflow-x: auto;
+     }
+
+#ballot-pg h4 {
+font-family: avenir;
+}
+
+.clearfix h4 {
+	font-family: avenir;
+	color: black;
+	text-decoration: underline;
+	font-size: 20px;
+	text-transform: uppercase
+}
+
+
+.clearfix ol li {
+	font-family: avenir;
+	color: black;
+}
+
+.clearfix p {
+	font-family: avenir;
+	color: black;
+	text-align: left;
+	font-size: 14px;
+}
+.common-questions li {
+	font-family: avenir;
+	font-size: 16px;
+	color: black;
+	margin-top: 25px;
+}
+
+ol li {
+	list-style: none;
+	text-align: left;
+}
+
+
+
+#nav-bar ol li {
+  font-family: avenir;
+    text-align: center;
+    color:#00B2EE;       
+}
+
+#nat-issues {
+list-style-type: none;
+}
+
+#nat-issues li {
+font-family: avenir;
+font-size: 20px;
+}
+
+.interior #content h3 {   /*why is this the selector and not just content?*/
+	background:#00B2EE ;
+	padding-left: 50px; 
+}
+
+.registration {
+	background: white;
+}
+
+#name legend {
+	font-family: avenir;
+	font-size: 18px;
+	font-weight: normal;
+	text-transform: uppercase;
+}
+
+
+#easy-vote {
+	font-family: avenir;
+	font-size: 18px;
+	color:black;
+	margin: 20px;	
+}
+
+#register-vote-pg h3 {
+font-family: avenir;
+text-transform: uppercase;
+font-size: 28px;
+text-align: left;
+overflow-x: auto;
+}
+
+
+
+#@media only screen and (max-width: 400px) {
+	
+#header .nav {
+		width: 100px;
+		background: white;
+	}
+	
+#main-logo img{
+float: left;
+}  
+
